@@ -1,0 +1,86 @@
+body {
+	font-family: Bookman Old Style;
+
+}
+
+a {
+	text-decoration: none;
+	color: springgreen;
+}
+
+a:hover {
+	color: dimgray;
+}
+
+.qwerty {
+	border: 10px black solid;
+	background: darkslategray;
+	color: cyan;
+}
+
+.button {
+	font-size: 40px;
+	margin: 10px;
+}
+
+#asd {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat( 3, 1fr);
+}
+
+.container > div {
+	padding: 0px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 0px;
+}
+
+#box1 {
+	border-bottom: 5px black solid;
+}
+
+h1 {
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+#abc {
+	list-style: square;
+}
+
+h2 {
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+#box3 {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: dimgray;
+	color: black;
+	border: 5px black solid;
+	margin-bottom: 10px;
+	text-align: center;
+	list-style: none;
+}
+
+#box3:hover {
+	background: springgreen;
+}
+
+.finale {
+	border-top: 5px black solid;
+	color: white;
+	text-align: center;
+	margin-bottom: 5px;
+}
